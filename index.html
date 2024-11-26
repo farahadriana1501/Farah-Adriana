@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .center-text {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 30px;
+            color: black;
+            margin-top: 20px;
+        }
+
+        body {
+            background-image: url('laut.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: black;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            padding: 14px 20px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #444;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .column {
+            margin: 10px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .column img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .column:hover {
+            transform: scale(1.1);
+        }
+
+        .content-box {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 10px;
+            text-align: center;
+            width: 60%;
+            color: black;
+        }
+
+        footer {
+            text-align: center;
+            padding: 8px 0;
+            background-color: #222;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="biodata.html">Biodata</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="family.html">Family</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+
+   
+    <marquee behavior="scroll" direction="left">
+        <h1 class="center-text">WELCOME TO FARAH ADRIANA'S WEBSITE</h1>
+    </marquee>
+
+
+    <div class="row">
+        <div class="column">
+            <img src="home.jpg" alt="Snow">
+        </div>
+        <div class="column">
+            <img src="homee.jpg" alt="Forest">
+        </div>
+        <div class="column">
+            <img src="homeee.jpg" alt="Mountains">
+        </div>
+    </div>
+
+    
+    <div class="content-box">
+        <h2>WELCOME TO A SPACE CRAFTED FOR YOU</h2>
+        <p>Explore, learn, and be inspired as you navigate through my world.</p>
+    </div>
+
+   
+    <footer>
+        © 2024 Farah's Website 
+    </footer>
+
+</body>
+</html>

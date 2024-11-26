@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery</title>
+    <style>
+        body {
+            background-image: url('laut.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: black;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            padding: 14px 20px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Home </a></li>
+        <li><a href="biodata.html">Biodata</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="family.html">Family</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+</style>
+</head>
+<body>
+
+<div style="text-align:center">
+  <h2>A PICTURE IS WORTH A THOUSAND WORDS</h2>
+  <p>Let these stunning images speak for themselves and transport you into my/ world</p>
+</div>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="img1.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img2.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img3.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img4.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img5.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img6.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img7.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img8.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+
+<script>
+function myFunction(imgs) {
+  var imgText = document.getElementById("imgtext");
+  imgText.innerHTML = imgs.alt;
+}
+</script>
+
+<footer style="text-align:center; padding:10px 0; background-color: #222; color:white; font-size:14px; position:fixed; bottom:0; width:100%;">
+    © 2024 Farah's Website 
+</footer>
+
+</body>
+</html>
